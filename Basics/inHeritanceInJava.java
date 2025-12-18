@@ -13,15 +13,25 @@ class Animal {
 class Cat extends Animal {
 
     void barks() {
-        System.out.println("Cat meows instead of barking");
+        System.out.println("Cat meows");
     }
 }
 
-public class InheritanceInJava {
+class Cow extends Animal {
+
+    void barks() {
+        System.out.println("Cow moos");
+    }
+}
+
+public class inHeritanceInJava {
 
     public static void main(String[] args) {
-        Cat c1 = new Cat();
-        c1.barks();
-        c1.eats();
+        Cat cat1 = new Cat();
+        Cow cow1 = new Cow();
+        cat1.barks();
+        cat1.eats();
+        cow1.barks();
+        cow1.eats();
     }
 }
