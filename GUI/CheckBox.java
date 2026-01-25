@@ -26,10 +26,16 @@ public class CheckBox {
         jc2.setVisible(true);
         jc2.setBounds(120, 60, 150, 20);
         jf.add(jc2);
-        JCheckBox jc3 = new JCheckBox("BTEC", true);
+        JCheckBox jc3 = new JCheckBox("BTEC", false);
         jc3.setLayout(null);
         jc3.setVisible(true);
         jc3.setBounds(120, 90, 150, 20);
         jf.add(jc3);
+
+        JRadioButton jr = new JRadioButton("BIT", false);
+        jr.setLayout(null);
+        jr.setVisible(true);
+        jr.setBounds(120, 120, 180, 20);
+        jf.add(jr);
     }
 }
