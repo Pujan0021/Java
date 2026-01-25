@@ -9,6 +9,8 @@ public class LogInFOrm {
         fr.setLayout(null);
         fr.setVisible(true);
 
+
+
         JLabel lu = new JLabel("User Name: ");
         lu.setSize(40, 30);
         lu.setLayout(null);
